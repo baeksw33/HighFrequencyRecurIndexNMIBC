@@ -7,7 +7,7 @@ This repository provides:
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -21,6 +21,13 @@ This repository provides:
 
 ---
 
-## 📊 What is HfRI?
+## What is HfRI?
 
 The **High-frequency Recurrence Index (HfRI)** is a transcriptome-based scoring system designed to estimate the risk of high-frequency recurrence in **non-muscle invasive bladder cancer (NMIBC)** patients.
+
+## Citation
+
+The paper is under review
+
+## Contact
+baek@kribb.re.kr
