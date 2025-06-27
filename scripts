@@ -1,0 +1,16 @@
+rm(list=ls())
+library("randomForest")
+
+src.dir = "your/path/"
+
+setwd(src.dir)
+load("HfRI_Prediction_Model.Rdata")
+
+# Load Validation data set -> val.data
+val.file = "Example_dataset.txt"
+val.data = read.delim(val.file, header=T, sep="\t", quote = "")
+
+# Prediction using prediction model
+val.data.pred.1 <- predict(in.data.RFmodel.Tuned, val.data)
+
+write.table(val.data.pred.1, "HfRI_Prediction.txt", sep="\t",row.names=F,quote = F)
