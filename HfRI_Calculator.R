@@ -5,9 +5,9 @@ hfri_info <- read.table("your/path/HfRI_Weights.txt", header = TRUE, sep = "\t")
 common_genes <- intersect(hfri_info$GeneID, rownames(expr))
 expr <- expr[common_genes, ]
 hfri_info <- hfri_info[hfri_info$GeneID %in% common_genes, ]
-hfri_info <- hfri_info[match(rownames(expr), hfri_info$GeneID), ]  # 순서 일치
+hfri_info <- hfri_info[match(rownames(expr), hfri_info$GeneID), ]  
 
-z_expr <- t(scale(t(expr)))  # 각 유전자별 Z-score
+z_expr <- t(scale(t(expr)))  
 
 weighted_expr <- z_expr * hfri_info$Weights
 
