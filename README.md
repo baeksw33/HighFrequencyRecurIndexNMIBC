@@ -11,12 +11,14 @@ This repository provides:
 
 | File | Description |
 |------|-------------|
-| `HfRI_model.RData` | R object containing a trained prediction model (random forest) |
+| `HfRI_model.RData` | R object containing a trained prediction model (UROMOL cohort-based, random forest) |
 | `HfRI_Prediction_Model.R` | R script to predict the High-frequency Recurrence Index (HfRI) subtypes |
 | `Example_dataset_for_HfRI_prediction.txt` | Example dataset for HfRI prediction |
 | `HfRI_Weights.txt` | Gene and molecular weights list for calculation of HfRI |
 | `HfRI_Calculator.R` | R script to calculate the High-frequency Recurrence Index (HfRI) |
 | `Example_matrix_for_HfRI_calculate.txt` | Example dataset for HfRI calculation |
+| `HfRI_source_data.xlsx` | Prediction results of subgroups of the cohorts used in this study |
+
 
 
 ---
