@@ -29,7 +29,7 @@ The **High-frequency Recurrence Index (HfRI)** is a transcriptome-based scoring 
 
 ## Citation
 
-The paper is under review
+Baek, SW., Byun, Y.J., Piao, XM. et al. Transcriptome-based high-frequency recurrence index predicts frequent recurrence in non-muscle-invasive bladder cancer after Bacillus Calmette-Guérin therapy. BMC Med (2026). https://doi.org/10.1186/s12916-026-04745-8
 
 ## Contact
 baek@kribb.re.kr
